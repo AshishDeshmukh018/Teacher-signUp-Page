@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,li{
+    font-size: 1.4rem;
+    color: black;
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(216,141,235,1) 0%, rgba(253,29,29,1) 50%, rgba(69,79,252,1) 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, form{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+input{
+    width: 50%;
+    border: 1px solid black;
+}
+
+button{
+    background: linear-gradient(90deg, rgba(216,141,235,1) 0%, rgba(253,29,29,1) 50%, rgba(69,79,252,1) 100%);
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.3rem;
+}
